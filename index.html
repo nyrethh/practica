@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://www.gstatic.com/firebasejs/9.6.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.0/firebase-database-compat.js"></script>
+  <meta charset="UTF-8">
+  <title>Atajos VS Code</title>
+
+<script>
+// Configuración de Firebase (usa TUS datos, no los de la imagen)
+const firebaseConfig = {
+    apiKey: "AIzaSyBAMDyqsF86K4w8UBxF4H8G7ctHocelMEUE",
+    authDomain: "estudio-7423e.firebaseapp.com",
+    databaseURL: "https://estudio-7423e-default-rtdb.firebaseio.com/", // ¡IMPORTANTE! Agrega esta línea
+    projectId: "estudio-7423e",
+    storageBucket: "estudio-7423e.appspot.com",
+    messagingSenderId: "573139133856",
+    appId: "1:573139133856:web:0448e72ec4758ee48db0c5"
+  };
+
+  // Inicializa Firebase
+ firebase.initializeApp(firebaseConfig);
+  const db = firebase.database(); // Para usar la base de datos
+
+ /* db.ref("prueba").set("¡Conexión exitosa!").then(() => {
+   console.log("Datos guardados en Firebase correctamente");
+  }).catch((error) => {
+    console.error("Error al guardar en Firebase:", error);
+  }); */
+ 
+</script>
+
+</head>
+<body>
+  <nav class="sticky-menu">
+    <a href="formulario.html" class="btn-add">➕ Agregar atajo</a>
+  </nav>
+
+
+  
+  <h1>Atajos de Visual Studio Code</h1>
+  
+  <input type="text" id="searchInput" placeholder=" Escribe para buscar atajos...">
+  <select id="categoryFilter" class="custom-select">
+    <option value="">Filtrar por categoría</option>
+    <option value="Básico">Básico</option>
+    <option value="Navegación y Gestión de Archivos">Navegación y Gestión de Archivos</option>
+    <option value="Comentarios">Comentarios</option>
+    <option value="Edición">Edición</option>
+    <option value="Terminal">Terminal</option>
+    <option value="Paneles">Paneles</option>
+    <option value="Zoom y Vista">Zoom y Vista</option>
+    <option value="Emmet">Emmet</option>
+    <option value="Búsqueda">Búsqueda</option>
+  </select>
+
+
+  <table id="shortcutsTable">
+    <thead>
+      <tr>
+        <th>Comando</th>
+        <th>Acción</th>
+        <th>Categoría</th>
+        <th>Acciones</th>
+      </tr>
+    </thead>
+    <tbody>
+     
+    </tbody>
+  </table>
+
+  <script src="js/script.js"></script>
+
+</body>
+</html>

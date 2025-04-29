@@ -1,0 +1,274 @@
+{
+    "atajos": {
+      "atajo1": {
+        "comando": "Ctrl + N",
+        "accion": "Nuevo archivo",
+        "categoria": "Básico"
+      },
+      "atajo2": {
+        "comando": "Ctrl + O",
+        "accion": "Abrir archivo",
+        "categoria": "Básico"
+      },
+      "atajo3": {
+        "comando": "Ctrl + S",
+        "accion": "Guardar archivo",
+        "categoria": "Básico"
+      },
+      "atajo4": {
+        "comando": "Ctrl + Shift + S",
+        "accion": "Guardar como...",
+        "categoria": "Básico"
+      },
+      "atajo5": {
+        "comando": "Ctrl + K, S",
+        "accion": "Guardar todo",
+        "categoria": "Básico"
+      },
+      "atajo6": {
+        "comando": "Ctrl + W",
+        "accion": "Cerrar archivo",
+        "categoria": "Básico"
+      },
+      "atajo7": {
+        "comando": "Ctrl + Shift + N",
+        "accion": "Nueva ventana de VSCODE",
+        "categoria": "Básico"
+      },
+      "atajo8": {
+        "comando": "Ctrl + Shift + W",
+        "accion": "Cerrar ventana de VSCODE",
+        "categoria": "Básico"
+      },
+      "atajo9": {
+        "comando": "Ctrl + R",
+        "accion": "Historial de archivos abiertos",
+        "categoria": "Navegación y Gestión de Archivos"
+      },
+      "atajo10": {
+        "comando": "Ctrl + K, Ctrl + W",
+        "accion": "Cerrar todas las pestañas",
+        "categoria": "Navegación y Gestión de Archivos"
+      },
+      "atajo11": {
+        "comando": "Ctrl + Shift + T",
+        "accion": "Reabrir pestaña cerrada",
+        "categoria": "Navegación y Gestión de Archivos"
+      },
+      "atajo12": {
+        "comando": "Ctrl + Shift + E",
+        "accion": "Abrir el explorador de archivos",
+        "categoria": "Navegación y Gestión de Archivos"
+      },
+      "atajo13": {
+        "comando": "Ctrl + ,",
+        "accion": "Abrir Configuración",
+        "categoria": "Navegación y Gestión de Archivos"
+      },
+      "atajo14": {
+        "comando": "Ctrl + B",
+        "accion": "Buscar en todos los archivos",
+        "categoria": "Navegación y Gestión de Archivos"
+      },
+      "atajo15": {
+        "comando": "Ctrl + 2",
+        "accion": "Dividir pantalla en dos",
+        "categoria": "Navegación y Gestión de Archivos"
+      },
+      "atajo16": {
+        "comando": "Ctrl + /",
+        "accion": "Dividir pantalla desde documento actual",
+        "categoria": "Navegación y Gestión de Archivos"
+      },
+      "atajo17": {
+        "comando": "Ctrl + F",
+        "accion": "Buscar en el archivo actual",
+        "categoria": "Búsqueda"
+      },
+      "atajo18": {
+        "comando": "Ctrl + H",
+        "accion": "Buscar y reemplazar",
+        "categoria": "Búsqueda"
+      },
+      "atajo19": {
+        "comando": "Ctrl + Shift + F",
+        "accion": "Buscar en todos los archivos",
+        "categoria": "Búsqueda"
+      },
+      "atajo20": {
+        "comando": "Ctrl + Shift + H",
+        "accion": "Buscar y reemplazar en todos los archivos",
+        "categoria": "Búsqueda"
+      },
+      "atajo21": {
+        "comando": "Ctrl + G",
+        "accion": "Ir a línea especifica",
+        "categoria": "Búsqueda"
+      },
+      "atajo22": {
+        "comando": "Ctrl + Enter",
+        "accion": "Seleccionar todas las coincidencias",
+        "categoria": "Búsqueda"
+      },
+      "atajo23": {
+        "comando": "Ctrl + D",
+        "accion": "Agregar selección a la Búsqueda",
+        "categoria": "Búsqueda"
+      },
+      "atajo24": {
+        "comando": "Ctrl + Z",
+        "accion": "Deshacer",
+        "categoria": "Edición"
+      },
+      "atajo25": {
+        "comando": "Ctrl + Y",
+        "accion": "Rehacer",
+        "categoria": "Edición"
+      },
+      "atajo26": {
+        "comando": "Ctrl + X",
+        "accion": "Cortar",
+        "categoria": "Edición"
+      },
+      "atajo27": {
+        "comando": "Ctrl + C",
+        "accion": "Copiar",
+        "categoria": "Edición"
+      },
+      "atajo28": {
+        "comando": "Ctrl + V",
+        "accion": "Pegar",
+        "categoria": "Edición"
+      },
+      "atajo29": {
+        "comando": "Ctrl + A",
+        "accion": "Seleccionar todo",
+        "categoria": "Edición"
+      },
+      "atajo30": {
+        "comando": "Enter",
+        "accion": "Insertar línea abajo",
+        "categoria": "Edición"
+      },
+      "atajo31": {
+        "comando": "Ctrl + Shift + Enter",
+        "accion": "Insertar línea arriba",
+        "categoria": "Edición"
+      },
+      "atajo32": {
+        "comando": "Alt + flechas de dirección",
+        "accion": "Mover línea arriba/abajo",
+        "categoria": "Edición"
+      },
+      "atajo33": {
+        "comando": "TAB",
+        "accion": "Insertar tabulación",
+        "categoria": "Edición"
+      },
+      "atajo34": {
+        "comando": "Shift + Tab",
+        "accion": "Eliminar tabulación",
+        "categoria": "Edición"
+      },
+      "atajo35": {
+        "comando": "Ctrl + Shift + K",
+        "accion": "Borrar línea",
+        "categoria": "Edición"
+      },
+      "atajo36": {
+        "comando": "Alt + Enter",
+        "accion": "Seleccionamos todos los elementos encontrados",
+        "categoria": "Edición"
+      },
+      "atajo37": {
+        "comando": "Ctrl + Alt + Flechas",
+        "accion": "El cursor se multiplica",
+        "categoria": "Edición"
+      },
+      "atajo38": {
+        "comando": "Alt + Z",
+        "accion": "Ajustar línea",
+        "categoria": "Edición"
+      },
+      "atajo39": {
+        "comando": "Ctrl + /",
+        "accion": "Mostrar / Ocultar terminal",
+        "categoria": "Terminal"
+      },
+      "atajo40": {
+        "comando": "Ctrl + Ñ",
+        "accion": "Abrir terminal",
+        "categoria": "Terminal"
+      },
+      "atajo41": {
+        "comando": "Ctrl + J",
+        "accion": "Mostrar/Ocultar el terminal",
+        "categoria": "Terminal"
+      },
+      "atajo42": {
+        "comando": "Ctrl + 1, 2, 3...",
+        "accion": "Cambiar entre paneles (1, 2, 3...)",
+        "categoria": "Paneles"
+      },
+      "atajo43": {
+        "comando": "Ctrl + Shift + M",
+        "accion": "Abrir paleta de problemas",
+        "categoria": "Paneles"
+      },
+      "atajo44": {
+        "comando": "Ctrl + Shift + U",
+        "accion": "Panel de Salida",
+        "categoria": "Paneles"
+      },
+      "atajo45": {
+        "comando": "Ctrl + Shift + Y",
+        "accion": "Panel de depuración",
+        "categoria": "Paneles"
+      },
+      "atajo46": {
+        "comando": "Ctrl + Shift + X",
+        "accion": "Extensiones",
+        "categoria": "Paneles"
+      },
+      "atajo47": {
+        "comando": "Ctrl + Shift + D",
+        "accion": "Depurar",
+        "categoria": "Paneles"
+      },
+      "atajo48": {
+        "comando": "Ctrl + Shift + P",
+        "accion": "Abrir paleta de comandos",
+        "categoria": "Paneles"
+      },
+      "atajo49": {
+        "comando": "F11",
+        "accion": "Activa y desactiva la pantalla completa",
+        "categoria": "Paneles"
+      },
+      "atajo50": {
+        "comando": "Ctrl + + / Ctrl + -",
+        "accion": "Zoom in/out",
+        "categoria": "Zoom y Vista"
+      },
+      "atajo51": {
+        "comando": "Ctrl + /",
+        "accion": "Comentar/Descomentar línea",
+        "categoria": "Comentarios"
+      },
+      "atajo52": {
+        "comando": "Shift + Alt + A",
+        "accion": "Comentar/Descomentar bloque",
+        "categoria": "Comentarios"
+      },
+      "atajo53": {
+        "comando": "Ctrl + .",
+        "accion": "Mostrar sugerencias de código",
+        "categoria": "Emmet"
+      },
+      "atajo54": {
+        "comando": "html:5 + Enter",
+        "accion": "Estructura básica HTML",
+        "categoria": "Emmet"
+      }
+    }
+  }

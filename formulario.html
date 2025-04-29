@@ -1,0 +1,44 @@
+<head>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://www.gstatic.com/firebasejs/9.6.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.0/firebase-database-compat.js"></script>
+    <meta charset="UTF-8">
+    <title>Atajos VS Code</title>
+</head>
+
+
+
+
+
+<div class="form-container">
+   
+        <h2 id="form-title">Agregar nuevo atajo</h2>
+        <form id="formAtajo">
+          <input type="hidden" id="atajoId"> <!-- Campo oculto para el ID -->
+          
+          <input type="text" id="inputComando" placeholder="Comando (ej: Ctrl + S)" required>
+          <input type="text" id="inputAccion" placeholder="Acción (ej: Guardar archivo)" required>
+          <select id="selectCategoria" required>
+            <option value="">Selecciona categoría</option>
+            <option value="Básico">Básico</option>
+            <option value="Navegación y Gestión de Archivos">Navegación y Gestión de Archivos</option>
+            <option value="Comentarios">Comentarios</option>
+            <option value="Edición">Edición</option>
+            <option value="Terminal">Terminal</option>
+            <option value="Paneles">Paneles</option>
+            <option value="Zoom y Vista">Zoom y Vista</option>
+            <option value="Emmet">Emmet</option>
+            <option value="Búsqueda">Búsqueda</option>
+
+           
+          </select>
+          
+          <div class="form-buttons">
+            <button type="submit" id="btn-submit">Guardar</button>
+            <button type="button" id="btn-cancel" style="display: none;">Cancelar</button>
+          </div>
+        </form>
+      
+  </div>
+<script src="js/formulario.js"></script>

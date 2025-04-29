@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #fafafa;
+  padding: 2rem;
+}
+h1 {
+  color: #522A70;
+}
+/* Estilos del input y del select, de la barra */
+input[type="text"] { 
+  padding: 0.5rem;
+  margin: 1rem 0;
+  width: 100%;
+  border:none;
+ border-bottom: 2px solid #522A70;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-bottom: 2px solid #fbd050;
+}
+
+
+input[type="text"]::placeholder {
+  color: #522A70;
+  opacity: 0.7; /* Cambia la opacidad del placeholder */
+}
+select:hover {
+  border: 2px solid #fbd050;
+}
+select:focus {
+  outline: none;
+  border: 2px solid #fbd050;
+}
+
+
+/*   estilos del select y options */
+
+.custom-select { 
+background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23522A70'%3e%3cpath d='M7 10l5 5 5-5z'/%3e%3c/svg%3e");
+background-repeat: no-repeat;
+background-position: right 10px center;
+background-size: 16px;
+appearance: none;
+-webkit-appearance: none;
+-moz-appearance: none;
+background-color: #fff7fb;
+color: #522A70;
+padding: 10px 40px 10px 15px;
+border: 2px solid #522A70;
+border-radius: 8px;
+font-size: 16px;
+font-family: 'Montserrat', sans-serif;
+outline: none;
+cursor: pointer;
+position: relative;
+background-repeat: no-repeat;
+background-position: right 10px center;
+transition: border-color 0.3s ease;
+
+}
+
+
+.custom-select:focus {
+border-color: #fbd050;
+box-shadow: 0 0 8px rgba(82, 42, 112, 0.3);
+}
+/*fin de estilos de select y options */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+th, td {
+  border: 1px solid #222023;
+  padding: 0.7rem;
+  text-align: left;
+}
+th {
+  background-color: #522a70;
+  color: #fbd050;
+}
+
+tr{
+  color:#222023
+}
+
+
+tr:hover {
+  background-color: #faf8f3;
+  color: #522a70;
+ 
+}
+
+/* Estilos para el formulario */
+
+
+
+
+.form-container {
+    background-color: #fff7fb;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-container h2 {
+    color: #522A70;
+    margin-top: 0;
+  }
+  
+  #formAtajo {
+    display: grid;
+    gap: 1rem;
+  }
+  
+  #formAtajo input,
+  #formAtajo select {
+    padding: 0.7rem;
+    border: 2px solid #522A70;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  #formAtajo button {
+    background-color: #522A70;
+    color: #fbd050;
+    padding: 0.7rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  #formAtajo button:hover {
+    background-color: #3a1a4a;
+  }
+
+
+
+  /* Menú fijo */
+.sticky-menu {
+    position: sticky;
+    top: 0;
+    background-color: #522A70;
+    padding: 0.8rem 1rem;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: right;
+  }
+  
+  .btn-add {
+    color: #fbd050;
+    background-color: transparent;
+    border: 2px solid #fbd050;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s;
+  }
+  
+  .btn-add:hover {
+    background-color: #fbd050;
+    color: #522A70;
+  }
+  
+  /* Ajuste para que el formulario no quede oculto bajo el menú */
+  #form-atajo {
+    scroll-margin-top: 60px; /* Altura del menú */
+  }
+
+
